@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.dispay-pic{
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 600px;
+   background-image: url(./slide-1.jpg);
+
+}
+
+
+nav{
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    left: 20px;
+    margin-left: 30rem;
+   margin-top: 3.5rem;
+    float: right;
+    
+   
+}
+.navbar{
+    margin-top: -2rem;
+}
+
+.icons{
+    margin-left: 52rem;
+    margin-top: 3.2rem;
+    
+}
+
+
+.icons i{
+    padding: 8px;
+}
+
+.logo{
+    margin-right: 10rem;
+    height: 54px;
+}
+
+.logo  img{
+    margin-top: 2rem;
+    height: 54px;
+    width: 54px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+
+
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+   
+   
+}
+.row {
+    margin-top: 5rem;
+  
+}
+
+
+
+.container{
+    width: 1228px;
+    min-height: 500px;
+    background: #fff;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.container.bas{
+    position: relative;
+    width: 100px;
+    height:200px;
+    background: #fff;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container .bas.imgebas{
+    position: relative;
+    overflow: hidden;
+}
+.container .bas.imgebas img{
+    width: 100%;
+    height: 100%;
+    transform: transform 2s;
+}
+.container .bas:hover .imgebas img{
+    transform: scale(1.2);
+}
+.container .bas .data{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #fff;
+    transform: scaleY(0);
+    transition: transform .5s;
+
+}
+.container .bas:hover .data{
+    transform: scaleY(1);
+}
+.container .bas .data.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: tomato;
+}
+.container .bas .data.content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: tomato;
+
+}
+.amrin{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.amrin h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    text: center;
+}
+
+
+
+
+.testimonial{
+    padding-top: 100px;
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1 );
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+
+    font-size: 34px;
+    color: #ff523b;
+
+}
+
+.flex{
+    display: flex;
+}
+
+
+.col-3 p{
+    font-size: 12px;
+    margin:  12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}  
+.body content{
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    font-family: 18px;
+    line-height: 30px;
+}
+
+
+.brands{
+    margin: 100px auto;
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+.kilo{
+    margin-top: -1.5rem;
+
+
+}
+ footer{
+     display:-webkit-flex ;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+     flex-flow:  row wrap;
+     padding: 50px;
+     color: tomato;
+     background color: #000000;
+ }
+.footer-left{
+    margin-right: 1.25rem;
+    margin-bottom: 2em;
+}
+.footer-left img{
+    width: 50%;
+
+}
+h2{
+    font-weight: 400;
+    font-size: 17px;
+
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer right{
+    display:-webkit-flex ;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow:  row wrap;
+
+}
+.box a {
+    color: tomato;
+}
+. footer-bottom{
+    text-align: center;
+    color :#ff523b;
+    padding-left: 50px;
+
+}
+footer-left p{
+    padding-left: 20%;
+}
